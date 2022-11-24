@@ -1,0 +1,492 @@
+/* General Styling*/
+body {
+  font-family: "Montserrat", sans-serif;
+  /* background-color: rgb(255,255,255); */
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
+}
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+
+.container-fluid,
+.container-sm, 
+.container-md, 
+.container-lg, 
+.container-xl {
+  width: 100%;
+  padding-right: 0 !important;
+  padding-left:0 !important;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+  /* ==========================
+      Header toggle starts here
+  ========================== */
+/* @media(min-width:780px) {
+
+  
+} */
+
+
+
+  /* ==========================
+        section-1 starts here
+  ========================== */
+
+
+ /* ==========================
+        uncief section starts here
+  ========================== */
+.unicef-logo {
+  background-image: url(../logo/unicef/unicef_logo_dark__ejvlglygb3ee_large.png);
+  width: 106px;
+  height: 29px;
+  background-size: 106px 28px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.unicef-text a::after {
+  font-family: fontawesome;
+  font-weight: 700;
+  content: "\f08e";
+  color: #06c;
+  padding-left: 5px;
+
+}
+.unicef-text {
+  margin-top: 4px;
+  max-width: 300px;
+}
+.unicef-logo-text {
+  padding: 80px 0 15px;
+  background-color: rgb(245,245,247);
+}
+/* to make it center */
+.unicef-logo-text div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media(min-width:780px){
+  .unicef-text{
+    max-width: 100%;  
+  }
+  .unicef-logo {
+    background-position:right;
+  }
+}
+  
+/* section 2 */
+.macbookAir-supper {
+  background-image: url(../images/logo_hero_mbp13__gdqp6kikbxe2_medium.png);
+  width: 253px;
+  height: 59px;
+  background-size: 253px 59px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+}
+.maindiv div {
+  max-width: 734px;
+  min-height: 508px;
+  background-size: 734px 508px;
+ 
+  
+}
+@media(min-width:760px){
+  .macbookAir-supper{
+    background-image: url(../images/logo_hero_mbp13__gdqp6kikbxe2_large.png);
+  
+    width: 293px;
+    background-size: 293px 68px;
+   font-weight: 400;
+    height: 68px;
+    left: 23px;
+   
+  }
+}
+
+/* ******************** correction  
+   /*   section-2 starts here   */
+/* *************************************/ */
+.title-wrapper {
+  padding: 100px 0 0;
+ }
+.title-wrapper {
+ padding: 70px 0 0;
+
+}
+.title-wrapper h2 {
+ font-size:2rem;
+ font-weight:700;
+
+}
+.title-wrapper p {
+ font-size:0.95rem;
+ font-weight:400;
+ margin-bottom: 0;
+}
+.head-title-img {
+ background-image: url(../images/logo_hero_mbp13__gdqp6kikbxe2_medium.png);
+ height: 30px;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size:178px 29px;
+}
+.main-section1 {
+  background-image: url(../images/macbook/hero_macbookair_mediumtall_2x.png);
+height: 580px;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size:cover;
+ position: relative;
+}
+
+@media (min-width: 768px) {
+  .main-section1 {
+ background-image: url(../images/macbook/hero_macbookair__el7scava26mq_medium.png);
+ height: 736px;
+}
+.title-wrapper h2 {
+ font-size:2.2rem;
+}
+.title-wrapper p {
+ font-size:1rem;
+}
+}
+@media (min-width: 1024px) {
+
+ .main-section1 {
+ background-image: url(../images/macbook/hero_macbookair_largetall.png);
+ height: 736px;
+ background-position: center;
+ 
+}
+.title-wrapper {
+position: absolute;
+top: 35%;
+left: 0;
+width: 70%;
+padding: 20px 0 0;
+}
+.title-wrapper h2 {
+ font-size:2.5rem;
+}
+.title-wrapper p {
+ font-size:1.2rem;
+}
+}
+
+
+
+
+
+  /* ==========================
+        section-3 starts here
+  ========================== */
+.macBook-pro-13{
+  background-image: url(../images/mbp13/hero_mbp13__f88jcbca0ve6_medium.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  color: white;
+}
+
+@media (min-width:780px){
+  .macBook-pro-13 {
+    background-image: url(../images/mbp13/hero_mbp13__f88jcbca0ve6_large.jpg);
+  }
+}
+
+ /* ==========================
+        section-4 starts here
+  ========================== */
+.iphone-13 {
+  background-image: url(../images/hero_iphone13_avail__gnqqkzuai6um_medium.jpg);
+  background-position: center;
+  height: 580px;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+@media (min-width:780px){
+  .iphone-13 {
+    background-image: url(../images/hero_iphone13_avail__gnqqkzuai6um_large.jpg);
+  }
+}
+
+.iPhone-13-pro {
+  background-image: url(../images/promo_iphone13pro_avail__beadms4ldidu_medium.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin: 5px; */
+}
+@media (min-width:780px){
+  .iPhone-13-pro{
+    background-image: url(../images/promo_iphone13pro_avail__beadms4ldidu_large.jpg);
+  }
+}
+
+/* ==========================
+        section-5 starts here
+  ========================== */
+.watch{
+  background-image: url(../images/promo_watch_lte__djeaso7ukrsm_medium.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin: 5px; */
+}
+@media (min-width:780px){
+  .watch{
+    background-image: url(../images/promo_watch_lte__djeaso7ukrsm_large.jpg);
+  }
+}
+
+.trailer::after{
+  font-family: "FontAwesome";
+    content: "\f144";
+    font-size: 20px;
+    padding-left: 15px;
+    color: rgb(0 0 238);
+}
+.trailer {
+  font-size: 20px;
+  /* font-weight: 500; */
+}
+.ipadair {
+  background-image: url(../images/promo_ipadair_avail__ferd4bfpcdm6_medium.jpg);
+  height: 580px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  color: #f5f5f7;
+  /* margin: 5px; */
+}
+@media(min-width:780px){
+  .ipadair{
+    background-image: url(../images/promo_ipadair_avail__ferd4bfpcdm6_large.jpg);
+  }
+}
+
+
+/* ==========================
+        section-6 starts here
+  ========================== */
+.appleFitness {
+  background-image: url(../images/promo_katy_perry__eqekd92guu4i_medium.jpg);
+  height: 580px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  color: white; 
+}
+@media(min-width:760px){ 
+  .appleFitness{
+    background-image: url(../images/promo_katy_perry__eqekd92guu4i_large.jpg);
+  }
+}
+
+
+
+.Card{
+  background-image: url(../images/tile__cauwwcyyn9hy_medium.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 580px;
+}
+@media (min-width:760px){
+  .Card{
+    background-image: url(../images/tile__cauwwcyyn9hy_large.jpg);
+  }
+}
+
+
+.tv-section{
+  background-image: url(../images/promo_cha_cha__bqi73prhci9y_medium.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 580px;
+}
+@media(min-width:760px){
+  .tv-section {
+    background-image: url(../images/promo_cha_cha__bqi73prhci9y_large.jpg);
+  }
+}
+.Tv-logosiz {
+ padding-top: 20px;
+ padding-bottom: 30px;
+}
+
+/* ==========================
+        learn and buy links
+  ========================== */
+.links a::after{
+  font-family: serif;
+  text-decoration: none;
+  content: "\f105";
+  font-family: "FontAwesome";
+  font-size: 20px;
+  padding-left: 10px;
+  color: #06c;
+}
+.links a {
+  font-size: 20px;
+}
+
+
+/* ==========================
+        Footer Styling
+  ========================== */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  /*Footer styling*/
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+}
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
